@@ -6310,3 +6310,21 @@ img.modal-img {
 .right.carousel-control {
     right: 10px; /* Adjust this value to set the right position */
 }
+
+.pdf-container {
+    width: 100%;
+    height: 80vh; /* Adjust the height based on your preference */
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+@media (max-width: 768px) {
+    .pdf-container {
+        height: 60vh; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .pdf-container {
+        height: 50vh; /* Adjust for extra small screens */
+    }
+}
