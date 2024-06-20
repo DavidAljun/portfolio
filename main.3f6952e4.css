@@ -6328,3 +6328,17 @@ img.modal-img {
         height: 50vh; /* Adjust for extra small screens */
     }
 }
+
+.custom-bg {
+    background-color: rgba(255, 255, 255, 0.2); /* Replace this with your desired color */
+  }
+
+  .description-text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .img-center {
+    display: block;
+    margin: 0 auto;
+  }
